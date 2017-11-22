@@ -73,19 +73,22 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
 
 
-**** Install the dependencies ****
-sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev 
-sudo apt-get install bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev
-sudo apt-get install libboost-program-options-dev libboost-test-dev libboost-thread-dev
-sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev 
-sudo apt-get install libqrencode-dev protobuf-compiler miniupnpc
+Install the dependencies
+------
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev <br>
+sudo apt-get install bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev<br>
+sudo apt-get install libboost-program-options-dev libboost-test-dev libboost-thread-dev<br>
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev <br>
+sudo apt-get install libqrencode-dev protobuf-compiler miniupnpc<br>
 
-**** To install the deprecated version of Berkeley DB 4.8 ****
-sudo add-apt-repository ppa:bitcoin/bitcoin
-sudo apt-get update
-sudo apt-get install libdb4.8-dev libdb4.8++-dev
+To install the deprecated version of Berkeley DB 4.8 
+------
+sudo add-apt-repository ppa:bitcoin/bitcoin<br>
+sudo apt-get update<br>
+sudo apt-get install libdb4.8-dev libdb4.8++-dev<br>
 
-**** Compile ****
-./autogen.sh
-./configure
-make
+ Compile
+ ------
+./autogen.sh<br>
+./configure<br>
+make<br>
