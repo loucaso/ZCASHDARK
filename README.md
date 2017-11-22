@@ -4,7 +4,7 @@ Zcashdark integration/staging tree
 http://www.zcashdark.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Zcashdark Developers
+Copyright (c) 2017-2018 Zcashdark Developers
 
 What is Zcashdark?
 ----------------
@@ -19,7 +19,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Zcashdark client sofware, see http://www.zcashdark.org.
+the Zcashdark client sofware, see http://www.zcashdark.lokosites.pw.
 
 License
 -------
