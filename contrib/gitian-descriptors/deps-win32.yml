@@ -3,7 +3,7 @@ name: "bitcoin-deps"
 suites:
 - "precise"
 architectures:
-- "amd64"
+- "i386"
 packages:
 - "mingw-w64"
 - "g++-mingw-w64"
@@ -17,7 +17,7 @@ files:
 - "openssl-1.0.1i.tar.gz"
 - "db-4.8.30.NC.tar.gz"
 - "miniupnpc-1.9.20140401.tar.gz"
-- "zlib-1.2.11.tar.gz"
+- "zlib-1.2.8.tar.gz"
 - "libpng-1.6.8.tar.gz"
 - "qrencode-3.4.3.tar.bz2"
 script: |

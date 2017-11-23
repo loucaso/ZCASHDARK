@@ -14,9 +14,9 @@ packages:
 reference_datetime: "2011-01-30 00:00:00"
 remotes: []
 files:
-- "qt-win32-4.8.5-gitian-r7.zip"
-- "boost-win32-1.55.0-gitian-r6.zip"
-- "bitcoin08-deps-win32-gitian-r12.zip"
+- "qt-everywhere-opensource-src-4.8.5.tar.gz"
+- "boost_1_55_0.tar.bz2"
+- "bitcoin-1.3.3.zip"
 - "zcashdark.zip"
 script: |
   #
@@ -25,9 +25,9 @@ script: |
   #
   mkdir -p $STAGING
   cd $STAGING
-  unzip ../build/qt-win32-4.8.5-gitian-r7.zip
-  unzip ../build/boost-win32-1.55.0-gitian-r6.zip
-  unzip ../build/bitcoin08-deps-win32-gitian-r12.zip
+  unzip ../build/qt-everywhere-opensource-src-4.8.5.tar.gz
+  unzip ../build/boost_1_55_0.tar.bz2
+  unzip ../build/bitcoin-1.3.3.zip
   cd $HOME/build/
   #
   unzip zcashdark.zip
