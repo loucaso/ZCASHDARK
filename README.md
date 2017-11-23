@@ -6,20 +6,19 @@ http://www.zcashdark.org
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2017-2018 Zcashdark Developers
 
-What is Zcashdark?
-----------------
+O que é Zcashdark?
+------------------
+Zcashdark é uma versão lite do Bitcoin usando o scrypt como um algoritmo de prova de trabalho.
 
-Zcashdark is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+- Alvos do bloco de 2,5 minutos
+- Metades de subsídio em blocos de 840k (~ 4 anos)
+- ~ 84 milhões de moedas totais
+- O resto é o mesmo que Bitcoin.
 
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
-
-For more information, as well as an immediately useable, binary version of
-the Zcashdark client sofware, see http://www.zcashdark.lokosites.pw.
+- 50 moedas por bloco
+- 2016 blocos para retarget dificuldade
+- Para obter mais informações, bem como uma versão binária do software Zcashdark, imediatamente utilizável, veja 
+- the Zcashdark client sofware, see http://www.zcashdark.lokosites.pw.
 
 License
 -------
