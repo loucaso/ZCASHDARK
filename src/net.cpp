@@ -1173,15 +1173,14 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"lokosites.pw", "168.194.167.47"},
-    {"lokosites.cloud", "zcashdark.lokosites.cloud"},
-    {"multipoolbr.com", "zcashdark.multipoolbr.com"},
+    {"149.56.152.208", "s1.zcashdark.xyz"},
+    {"168.194.167.47", "s2.zcashdark.xyz"},
 
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"lokosites.pw", "testnet-seed.zcashdarktools.com"},
+    {"s2.zcashdark.xyz", "testnet-seed.zcashdarktools.com"},
     {"xurious.com", "testnet-seed.ltc.xurious.com"},
     {"wemine-testnet.com", "dnsseed.wemine-testnet.com"},
     {NULL, NULL}
