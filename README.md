@@ -1,7 +1,7 @@
 Zcashdark integration/staging tree
 ================================
 
-https://coin.zcashdark.xyz
+https://www.coin.zcashdark.xyz/
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2017-2018 Zcashdark Developers
@@ -18,7 +18,7 @@ Zcashdark é uma versão lite do Bitcoin usando o scrypt como um algoritmo de pr
 - 50 moedas por bloco
 - 2016 blocos para retarget dificuldade
 - Para obter mais informações, bem como uma versão binária do software Zcashdark, imediatamente utilizável, veja 
-- the Zcashdark client sofware, see https://coin.zcashdark.xyz
+- the Zcashdark client sofware, see https://www.coin.zcashdark.xyz/
 
 License
 -------
